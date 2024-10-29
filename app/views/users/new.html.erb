@@ -4,8 +4,12 @@
     <%= f.text_field :uid %>
   </p>
   <p>
-    <%= f.label :pass, 'PASS' %>
-    <%= f.text_field :pass %>
+    <%= f.label :password, 'PASS' %>
+    <%= f.text_field :password %>
+  </p>
+  <p>
+    <%= f.label :password_comfirmation, 'PASScheck' %>
+    <%= f.text_field :password_comfirmation %>
   </p>
   <%= f.submit '登録' %>
 <% end %>
